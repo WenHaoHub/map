@@ -639,7 +639,7 @@ export default {
   right: 0;
   height: 60px;
   background: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -650,7 +650,7 @@ export default {
 .breadcrumb {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #00d4ff;
   font-size: 16px;
 }
 
@@ -699,7 +699,7 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  top: 60px;
+  top: 10px;
 }
 
 .loading {
@@ -737,6 +737,7 @@ export default {
   position: absolute;
   left: 30px;
   top: 45%;
+  backdrop-filter: blur(3px);
   display: flex;
   flex-direction: column;
   gap: 10px;

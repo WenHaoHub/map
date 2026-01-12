@@ -860,7 +860,7 @@ export default {
   right: 0;
   height: 60px;
   background: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -920,7 +920,8 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
-  top: 60px;
+  top: 10px;
+  
 }
 
 .loading {
@@ -957,6 +958,7 @@ export default {
 /* 右侧切换面板 */
 .toggle-panel {
   position: absolute;
+  backdrop-filter: blur(3px);
   left: 30px;
   top: 45%;
   display: flex;

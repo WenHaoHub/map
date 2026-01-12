@@ -63,6 +63,7 @@ export default {
   position: absolute;
   bottom: 20px;
   left: 50%;
+  backdrop-filter: blur(3px);
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
